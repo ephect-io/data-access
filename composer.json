@@ -1,0 +1,25 @@
+{
+    "name": "ephect-io/data-access",
+    "description": "Ephect framework database access layer.",
+    "type": "library",
+    "homepage": "https://ephect.io",
+    "license": "GPL-3.0+",
+    "version": "0.7.2",
+    "authors": [
+        {
+            "name": "dpjb",
+            "email": "dpjb@hotmail.fr"
+        }
+    ],
+    "require": {
+        "ephect-io/framework": "dev-develop"
+    },
+    "minimum-stability": "stable",
+    "bin": [
+        "bin/ephect-io_web-component_install.sh",
+        "bin/ephect-io_web-component_install.bat"
+    ],
+    "require-dev": {
+        "ephect-io/toolbox": "dev-develop"
+    }
+}
