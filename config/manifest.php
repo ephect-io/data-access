@@ -8,8 +8,8 @@
 return [
     "tag" => "DbalConnection",
     "name" => "ephect-io/data-access",
-    "entrypoint" => \Ephect\Plugins\WebComponent\WebComponent::class,
-    "templates" => "",
+    "entrypoint" => null,
+    "templates" => "!",
     "description" => "Ephect framework database access layer.",
     "version" => "1.0.0",
 ];
