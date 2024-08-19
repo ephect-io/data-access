@@ -11,15 +11,17 @@
             "email": "dpjb@hotmail.fr"
         }
     ],
+    "autoload": {
+        "psr-4": {
+            "Ephect\\Modules\\DataAccess\\": "src/"
+        }
+    },
     "require": {
-        "ephect-io/framework": "dev-develop"
+        "ephect-io/framework": "dev-remove_dbal"
     },
     "minimum-stability": "stable",
     "bin": [
-        "bin/ephect-io_web-component_install.sh",
-        "bin/ephect-io_web-component_install.bat"
-    ],
-    "require-dev": {
-        "ephect-io/toolbox": "dev-develop"
-    }
+        "bin/ephect-io_data-access_install.sh",
+        "bin/ephect-io_data-access_install.bat"
+    ]
 }

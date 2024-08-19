@@ -3,6 +3,6 @@ module:
   title: Can be used as meta title
   lang: fr
   hostname: http://example.com
-  namespace: Name\Space
+  namespace: Ephect\Modules\DataAccess
   framework: vendor/ephect-io/framework/Ephect
   javascripts: vendor/ephect-io/javascripts/Ajil
