@@ -4,11 +4,11 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "1229dc8f3ccdd9d80855857013a18eee",
+    "content-hash": "3eae84a1a34dabce1fa066cedbfc6e45",
     "packages": [
         {
             "name": "ephect-io/framework",
-            "version": "dev-remove_dbal",
+            "version": "dev-develop",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ephect-io/framework.git",
@@ -52,7 +52,7 @@
             "homepage": "https://ephect.io",
             "support": {
                 "issues": "https://github.com/ephect-io/framework/issues",
-                "source": "https://github.com/ephect-io/framework/tree/remove_dbal"
+                "source": "https://github.com/ephect-io/framework/tree/develop"
             },
             "time": "2024-08-19T18:49:13+00:00"
         }
