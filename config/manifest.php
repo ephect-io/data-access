@@ -11,5 +11,5 @@ return [
     "entrypoint" => null,
     "templates" => "!",
     "description" => "Ephect framework database access layer.",
-    "version" => "1.0.0",
+    "version" => "0.7.2",
 ];
