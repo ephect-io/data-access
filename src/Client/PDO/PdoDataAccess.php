@@ -1,7 +1,10 @@
 <?php
+
 namespace Ephect\Modules\DataAccess\Client\PDO;
 
 use Ephect\Modules\DataAccess\ServerType;
+use function file_exists;
+use function file_get_contents;
 
 class PdoDataAccess
 {
@@ -44,8 +47,8 @@ class PdoDataAccess
 
         if (!$isFound || ($isFound && $size === 0)) {
             $sqlFilename = EPHECT_APPS_ROOT . 'common' . DIRECTORY_SEPARATOR . 'data' . DIRECTORY_SEPARATOR . 'fxcms.sql';
-            if (\file_exists($sqlFilename)) {
-                $sql = \file_get_contents($sqlFilename);
+            if (file_exists($sqlFilename)) {
+                $sql = file_get_contents($sqlFilename);
                 $connection->exec($sql);
             }
         }

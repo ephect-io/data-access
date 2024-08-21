@@ -1,4 +1,5 @@
 <?php
+
 namespace Ephect\Modules\DataAccess;
 
 class ServerType
