@@ -2,8 +2,8 @@
 
 namespace Ephect\Modules\DataAccess\Middlewares;
 
-use Ephect\Framework\Components\ComponentEntityInterface;
-use Ephect\Framework\Middlewares\ComponentParserMiddlewareInterface;
+use Ephect\Forms\Components\ComponentEntityInterface;
+use Ephect\Forms\Middlewares\ComponentParserMiddlewareInterface;
 use Ephect\Framework\Registry\StateRegistry;
 use function Ephect\Hooks\useState;
 
