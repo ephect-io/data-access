@@ -13,6 +13,7 @@
     ],
     "require": {
         "ephect-io/framework": "dev-develop",
+        "ephect-io/forms": "dev-develop",
         "ext-pdo": "*",
         "ext-pdo_sqlite": "*"
     },

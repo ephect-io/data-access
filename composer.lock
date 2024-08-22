@@ -4,8 +4,47 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "4673ef8a081f50e2da818a9a6ce55a54",
+    "content-hash": "057f8e077404b812c1fa54fbe9f0c26b",
     "packages": [
+        {
+            "name": "ephect-io/forms",
+            "version": "dev-develop",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ephect-io/forms.git",
+                "reference": "e0d6a6865af55ac721ef4a2885f3d59e452ad019"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ephect-io/forms/zipball/e0d6a6865af55ac721ef4a2885f3d59e452ad019",
+                "reference": "e0d6a6865af55ac721ef4a2885f3d59e452ad019",
+                "shasum": ""
+            },
+            "require": {
+                "ephect-io/framework": "dev-develop"
+            },
+            "bin": [
+                "bin/ephect-io_forms_install.sh",
+                "bin/ephect-io_forms_install.bat"
+            ],
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0+"
+            ],
+            "authors": [
+                {
+                    "name": "John Doe",
+                    "email": "john.doe@example.com"
+                }
+            ],
+            "homepage": "https://example.com",
+            "support": {
+                "issues": "https://github.com/ephect-io/forms/issues",
+                "source": "https://github.com/ephect-io/forms/tree/develop"
+            },
+            "time": "2024-08-21T20:31:46+00:00"
+        },
         {
             "name": "ephect-io/framework",
             "version": "dev-develop",
@@ -56,7 +95,8 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "ephect-io/framework": 20
+        "ephect-io/framework": 20,
+        "ephect-io/forms": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
